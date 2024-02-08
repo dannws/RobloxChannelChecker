@@ -16,7 +16,7 @@ Roblox Channel Privacy Tracker made on python, auto updates, embeds, open source
 
 ### Executing program
 
-* To run the program,
+* to run the program,
 * you must first edit the config.json file and put your webhook url there,
 * then you just open the main.py file and you should be good to go!
 
