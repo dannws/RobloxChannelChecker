@@ -32,9 +32,9 @@ Discord: dannw
 
 Contributors names and contact info
 
-ex. Dan  (coder)
-ex. Kit (provided channel list)
-ex. Popbob (emotional support)
+* Dan  (coder)
+* Kit (provided channel list)
+* Popbob (emotional support)
 
 
 
