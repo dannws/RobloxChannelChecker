@@ -1,0 +1,3 @@
+discord_webhook
+pyfiglet
+requests
