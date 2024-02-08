@@ -30,7 +30,7 @@ Discord: dannw
 
 ## Authors
 
-Contributors names and contact info
+
 
 * Dan  (coder)
 * Kit (provided channel list)
