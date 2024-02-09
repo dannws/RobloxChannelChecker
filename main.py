@@ -28,7 +28,7 @@ def clear():
     )
     print("                                                   (MADE by dannw)")
     print("                                                    (im mentally)")
-    print("                                                     (unstable)")
+    print("                                                     (unstable!)")
     print("                         ")
     print("                         ")
     print("                         ")
@@ -43,10 +43,16 @@ def checkifalive(channel):
     bleh = requests.get(f"https://clientsettings.roblox.com/v2/client-version/WindowsPlayer/channel/{channel}")
     if bleh.status_code == 200:
        print(f"{channel} is open")
+       meow = bleh.json()
+       woof = meow['clientVersionUpload']
+       print(woof)
        try:
           embed.delete_embed_field(1)
        except:
-          embed.add_embed_field(name=channel, value=f"{channel} is open!", inline=False)
+          embed.add_embed_field(name=channel, value=f"{channel} is open!, {woof}", inline=False)
+          
+          
+
        
 
        
