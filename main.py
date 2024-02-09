@@ -14,7 +14,7 @@ embed = DiscordEmbed(title="dannw on dc :3", url="https://github.com/dannws/Robl
 webhook = DiscordWebhook(url=webhookurl)
 headers = {'Accept': 'application/json'}
 
-r = requests.get("https://pastebin.com/raw/GL6CjsNR", headers=headers)
+r = requests.get("https://raw.githubusercontent.com/bluepilledgreat/Roblox-DeployHistory-Tracker/main/ChannelsAll.json", headers=headers)
 channelList = r.json()
 
 
