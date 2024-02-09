@@ -55,7 +55,7 @@ def checkifalive(channel):
 
 
 def checkchannel():
-    for i in range(0,78):
+    for i in range(0,177):
         channel = channelList[i]
         checkifalive(channel=channel)
 
