@@ -41,13 +41,15 @@ clear()
 
 def checkifalive(channel):
     bleh = requests.get(f"https://clientsettings.roblox.com/v2/client-version/WindowsPlayer/channel/{channel}")
+    
     if bleh.status_code == 200:
        print(f"{channel} is open")
        meow = bleh.json()
        woof = meow['clientVersionUpload']
        print(woof)
        try:
-          embed.delete_embed_field(1)
+          embed.delete_embed_field(embedfield)
+          embedfield = embedfield+1
        except:
           embed.add_embed_field(name=channel, value=f"{channel} is open!, {woof}", inline=False)
           
@@ -68,6 +70,7 @@ def checkchannel():
 
 
 while True:
+   embedfield = 1
    checkchannel()
    try:
       webhook.delete()
