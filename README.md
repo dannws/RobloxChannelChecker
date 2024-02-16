@@ -34,7 +34,7 @@ Discord: dannw
 
 * Dan  (coder)
 * Kit (provided channel list)
-* Popbob (emotional support)
+* Popbob & [variable](https://github.com/devstacking) (emotional support)
 
 
 
